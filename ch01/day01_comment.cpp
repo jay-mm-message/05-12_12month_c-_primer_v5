@@ -2,8 +2,8 @@
 using namespace std;
 
 /*
-	main function
-	read two numbers and find their sum
+	/*main function
+	read two numbers and find their sum*/
 */
 
 int main() {
