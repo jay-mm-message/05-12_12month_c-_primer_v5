@@ -1,13 +1,7 @@
+#include <iostream>
+using namespace std;
 
-clear
-
-if [ -e day01_hello.cpp ]; then
-	g++ day01_hello.cpp
-
-	if [ -e a.out ]; then
-		./a.out
-		echo $? # display system state
-	else
-		echo "a.out not exist"
-	fi
-fi
+int main() {
+	cout << "Hi, Jay welcome to the world of c++!" << endl;
+	return 128;
+}
