@@ -1,5 +1,9 @@
 
 clear
+if [ -e a.out ]; then
+	rm a.out
+fi
+
 if [ "$1" == "" ]; then
 	echo "please provide a file name"
 else
