@@ -25,6 +25,13 @@ int main() {
 		cout << "p isn't nullptr" << endl;
 	}
 
+	p = &i;
+	if (p) {
+		cout << "p is true" << endl;
+	} else {
+		cout << "p isn't nullptr" << endl;
+	}
+
 	// *p = 0;
 	// if (*p) {
 	// 	cout << "*p is true" << endl;
