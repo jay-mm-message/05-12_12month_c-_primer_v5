@@ -18,6 +18,13 @@ int main() {
 		cout << "p is nullptr" << endl;
 	}
 
+	p = &j;
+	if (p) {
+		cout << "p is true" << endl;
+	} else {
+		cout << "p isn't nullptr" << endl;
+	}
+
 	// *p = 0;
 	// if (*p) {
 	// 	cout << "*p is true" << endl;
